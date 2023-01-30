@@ -1,0 +1,289 @@
+@import "Variables";
+//<>====================================================================================================================================
+.header {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_top {
+            background-color: $mainBlack;
+            padding: 25px 0;
+        }
+        &_bottom {
+            padding: 25px 0;
+            font-size: 18px;
+            color:#000;
+            font-weight: 600;
+            background: #ECF1F2;
+        }
+        &_tabs {
+            font-size: 18px;
+            font-weight: 500;
+            background-color: $mainBlack;
+            color:#fff;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        li:not(:last-child) {
+            margin: 0px 60px 0px 0px;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+
+    &__profile {
+        margin: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 22px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        background: url("../img/icons/Header/profile.svg") left/contain no-repeat ;
+        cursor: pointer;
+    }
+
+//--------Bottom header-----------------
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__leftSide {
+        display: flex;
+        align-items: center;
+        margin: 0px 30px 0px 0px;
+    }
+
+    &__logoImg {
+        width: 190px;
+        margin: 0px 160px 0px 0px;
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+
+    &__searching {
+        position: relative;
+        padding: 10px 10px 10px 20px;
+        border: 1px solid rgba(4, 4, 4, 0.5);
+        border-radius: 3px;
+        
+        input {
+            width: 320px;
+            background-color: inherit;
+        }
+        &::before {
+            content: "";
+            display: inline-block;
+            width:20px;
+            height: 20px;
+            background: url("../img/icons/Header/iconInputLoop.svg")left no-repeat;
+            cursor:pointer;
+            vertical-align: middle; 
+        }
+    }
+
+    &__rightSide {
+        display: flex;
+        align-items: center;
+    }
+
+    &__location {
+        &::before {
+            content: "";
+            vertical-align: middle;
+            display: inline-block;
+            height: 26px;
+            width: 17px;
+            margin: 0px 10px 0px 0px;
+            background: url("../img/icons/Header/locationIcon.svg") left no-repeat;
+            cursor: pointer;
+        }
+    }
+
+    &__numberCall {
+    }
+
+    &__favoriteGoods {
+        height: 26px;
+        min-width: 28px;
+        margin: 0 33px;
+        background: url("../img/icons/Header/favoriteIcon.svg") left no-repeat;
+        cursor: pointer;
+    }
+
+    &__cart {
+    }
+
+    &__orderInfo {
+    }
+}
+.numberCall-info {
+    margin: 0 0 0 55px;
+    &__phone {
+        cursor: text;
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            height: 10px;
+            margin: 0px 0px 0px 10px;
+            background: url("../img/icons/Header/arrowDown.svg") left no-repeat;
+            cursor: pointer;
+    
+        }
+    }
+
+    &__orderCall {
+        font-weight: 700;
+        margin: 7px 0px 0px 0px;
+        color: #E8AA31;
+        cursor: pointer;
+    }
+}
+.cart-info {
+    position: relative;
+    margin: 0px 22px 0px 0px;
+    cursor: pointer;
+    span {
+        position: absolute;
+        right: -7px;
+        top: 0;
+        width: 14px;
+        line-height: 14px;
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #E8AA31;
+    }
+    &__img {}
+}
+.orderInfo {
+
+    &__sum {
+        font-weight: 500;
+    }
+
+    &__buy {
+        margin: 5px 0px 0px 0px;
+        font-weight: 500;
+        color: #E8AA31;
+        cursor: pointer;
+    }
+}   
+
+
+//----Табы---------------------------
+
+.header {
+
+    // .header__tabs-container
+    &__tabs-container {
+
+    }
+
+    // .header__tabs-
+    &__tabs-triggers {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        li {
+            position: relative;
+            padding: 25px 20px 25px 0;
+            
+            cursor: pointer;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 3px;
+                height: 4px;
+                width: 100%;
+                background-color: #E8AA31;
+                opacity: 0;
+                visibility: hidden;
+            }
+            &:hover {
+                color: #E8AA31;
+                &::after {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            &.active {
+                color: #E8AA31;
+                &::after {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
+    // .header__tabs-content
+    &__tabs-content {}
+}
+.tabs-content {
+    display: none;
+    padding: 20px 0px 40px 0px;
+    box-shadow: 0px -10px 0px 0px rgba(53, 53, 53, 0.3);
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1.1fr 0.7fr;
+        &_second {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+}
+
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        word-wrap: none;
+        &:not(:last-child) {
+            margin: 0px 15px 0px 0px;
+        }
+        
+    }
+
+    &__list {
+
+        margin: 30px 0px;
+        padding: 30px 20px 30px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__row > &__showAll {
+        padding: 0px 10px 0px 20px;
+        color:$orangeText;
+        font-weight: 500;
+        font-size: 16px;
+        justify-self: start;
+    }
+}
+
+//<>====================================================================================================================================

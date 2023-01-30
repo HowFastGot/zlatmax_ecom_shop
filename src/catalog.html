@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+	"title": "Каталог"
+})
+<body>
+	@@include('html/header.html', {})
+    <div class="wrapper">
+        <main class="page__inner-catalog inner-catalog">
+            <div class="inner-catalog__container _container">
+                <h1 class="inner-catalog__title">Разделочные ножи</h1>
+                <div class="inner-catalog__row">
+                    <div class="inner-catalog__breadcrumbs breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <span class="breadcrumbs__last-page">Разделочные ножи</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inner-catalog__controlls controlls-block">
+                        <select name="catalog" id="1" class="controlls-block__select">
+                            <option value="1" class="controlls-block__option" selected>По популярности</option>
+                            <option value="2" class="controlls-block__option">По цене</option>
+                            <option value="3" class="controlls-block__option">По отзывам</option>
+                            <option value="4" class="controlls-block__option">По рейтингу</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="inner-catalog__grid-wrapper">
+                    <div class="inner-catalog__filter filter-block">
+                        <div class="filter-block__floor floor-item">
+                           <div class="floor-item__card">
+                                <div class="floor-item__title_main">Фильтр товаров</div>
+                                <div class="floor-item__price-tab tab-price">
+                                    <div class="tab-price__tab-button _active">Цена</div>
+                                    <div class="tab-price__body">
+                                        <div class="tab-price__price-content">
+                                            <input type="text" class="tab-price__col-price tab-price__col-price_1" value="2000 руб">
+                                            <input type="text" class="tab-price__col-price tab-price__col-price_2" value="5000 руб">
+                                        </div>
+                                        <div class="tab-price__slide-filter filter-slide">
+                                            <div class="filter-slide__range"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Производство</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input _active">
+                                            <div class="floor-item__text">АиР</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Булат Сергея Баранова</div>
+                                        </div>
+                                        <div class="floor-item__quant">(25)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Булат Умерова</div>
+                                        </div>
+                                        <div class="floor-item__quant">(265)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ЗЗОСС</div>
+                                        </div>
+                                        <div class="floor-item__quant">(18)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ЗИК</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ЗЛАТКО</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ЗлатПрофит</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ЗОК</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">НБК</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">НИКОН</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Оружейник</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Guns</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">СТИЛЬ-М</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Сталь</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input ">
+                                            <div class="floor-item__text">100Х13М</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">110Х18М-ШД</div>
+                                        </div>
+                                        <div class="floor-item__quant">(25)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">40Х10С2М (ЭИ-107)</div>
+                                        </div>
+                                        <div class="floor-item__quant">(265)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">50Х14МФ</div>
+                                        </div>
+                                        <div class="floor-item__quant">(18)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">95Х18</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">AUS-8</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">ELMAX</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">RWL-34</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Дамаск</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">К340</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литой булат</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литой булат</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">М390</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Рукоять</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input ">
+                                            <div class="floor-item__text">Mercorne</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Березовый кап</div>
+                                        </div>
+                                        <div class="floor-item__quant">(25)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Бубинго</div>
+                                        </div>
+                                        <div class="floor-item__quant">(265)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Граб</div>
+                                        </div>
+                                        <div class="floor-item__quant">(18)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Дуб</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Кап</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Комбинированная</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Каштан</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Квартопрен</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Кожа-Металл</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Комбинированная</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Гарда и тыльник</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input ">
+                                            <div class="floor-item__text">Алюминий</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Латунь</div>
+                                        </div>
+                                        <div class="floor-item__quant">(25)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литой Барс</div>
+                                        </div>
+                                        <div class="floor-item__quant">(265)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литой Барс</div>
+                                        </div>
+                                        <div class="floor-item__quant">(18)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литой Пума</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Литье</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Металлический</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Нержавеющая сталь</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Текстолит</div>
+                                        </div>
+                                        <div class="floor-item__quant">(170)</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Комбинированная</div>
+                                        </div>
+                                        <div class="floor-item__quant">(250)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Золочение</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input ">
+                                            <div class="floor-item__text">Золочение клинка</div>
+                                        </div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__text">Золочение рисунка на клинке</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Общая длина, мм</div>
+                                <div class="floor-item__body floor-item__body_sizing">
+                                    <div class="tab-price__price-content">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_1" value="100">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_2" value="190">
+                                    </div>
+                                    <div class="floor-item__range-slider slider-range">
+                                        <div class="slider-range__slider-sizing slider-range__slider-sizing_total-length"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Длина клинка, мм</div>
+                                <div class="floor-item__body floor-item__body_sizing">
+                                    <div class="tab-price__price-content">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_1" value="100">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_2" value="190">
+                                    </div>
+                                    <div class="floor-item__range-slider slider-range">
+                                        <div class="slider-range__slider-sizing slider-range__slider-sizing_length"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Ширина клинка, мм</div>
+                                <div class="floor-item__body floor-item__body_sizing">
+                                    <div class="tab-price__price-content">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_1" value="100">
+                                        <input type="text" class="tab-price__col-price floor-item__size-range_2" value="190">
+                                    </div>
+                                    <div class="floor-item__range-slider slider-range">
+                                        <div class="slider-range__slider-sizing slider-range__slider-sizing_width"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floor-item__card">
+                                <div class="floor-item__title _active">Рейтинг</div>
+                                <div class="floor-item__body">
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input ">
+                                            <div class="floor-item__stars_5"></div>
+                                        </div>
+                                        <div class="floor-item__quant">5/5</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__stars_4"></div>
+                                        </div>
+                                        <div class="floor-item__quant">4/5</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                           <div class="floor-item__stars_3"></div>
+                                        </div>
+                                        <div class="floor-item__quant">3/5</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__stars_2"></div>
+                                        </div>
+                                        <div class="floor-item__quant">2/5</div>
+                                    </div>
+                                    <div class="floor-item__row">
+                                        <div class="floor-item__inputText-block">
+                                            <input type="checkbox" class="floor-item__input">
+                                            <div class="floor-item__stars_1"></div>
+                                        </div>
+                                        <div class="floor-item__quant">1/5</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="inner-catalog__content-block">
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fox-knives__card card-knife">
+                            <div class="card-knife__img">
+                                <img src="img/body/fox-knives-card/1.jpg" alt="fox-knife">
+                            </div>
+                            <div class="card-knife__content">
+                                <div class="card-knife__title">Нож Лиса</div>
+                                <div class="card-knife__characteristics characteristics-list">
+                                    <div class="characteristics-list__size">95х18</div>
+                                    <div class="characteristics-list__materials">Орех, Алюминий</div>
+                                </div>
+                                <div class="card-knife__feedback feedback-rate">
+                                    <ul class="feedback-rate__stars">
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                        <li class="feedback-rate__star"></li>
+                                    </ul>
+                                    <div class="feedback-rate__replays">12 отзывов</div>
+                                </div>
+                                <div class="card-knife__buy-info buy-info">
+                                    <div class="buy-info__price">2 719 р.</div>
+                                    <div class="buy-info__tools">
+                                        <div class="buy-info__compare"></div>
+                                        <div class="buy-info__like"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+	@@include('html/footer.html', {})
+	<script src="js/app.min.js"></script>
+</body>
+</html>

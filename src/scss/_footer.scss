@@ -1,0 +1,155 @@
+@import "Variables";
+//<>====================================================================================================================================
+.footer {
+    
+    &__top {
+        padding: 60px 0;
+
+    }
+
+    &__bottom {
+        padding: 70px 0px 50px 0px;
+        background-color: $mainBlack;
+    }
+}
+.top-footer {
+    background: url("../img/footer/bg.png") center/cover no-repeat;
+    &__wrapper {
+    }
+
+    &__title {
+        margin: 0px 0px 30px 0px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color:$orangeText;
+        text-align: center;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+    
+}
+.bottom-footer {
+
+    &__container {
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__title {
+        margin: 30px 0px 0px 0px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    &__column {
+        padding: 23px 20px 30px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    &__link {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 0.8);
+        white-space: pre-line;
+        &_ph {
+            padding: 0px 0px 0px 25px;
+            background: url("../img/icons/Footer/phone.svg") left no-repeat;
+        }
+        &_clock {
+            padding: 0px 0px 0px 25px;
+            background: url("../img/icons/Footer/clock.png") left 7px no-repeat;
+        }
+        &_location {
+            padding: 0px 0px 0px 25px;
+            background: url("../img/icons/Footer/location.png") left 7px no-repeat;
+        }
+        &_mail {
+            padding: 0px 0px 0px 25px;
+            background: url("../img/icons/Footer/mail.png") left no-repeat;
+        }
+        span {
+            color: $orangeText;
+        }
+        &:not(:last-child) {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__social {
+    }
+
+    &__form-block {
+        display: flex;
+        align-items: center;
+        input {
+            width: 100%;
+            height: 50px;
+            padding: 0px 15px;
+            color: #fff;
+            appearance: none;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            background-color: transparent; 
+        }
+    }
+    & &__btn {
+        flex: 0 0 50px;
+        height: 50px;
+        padding: 0;
+        background: url("../img/icons/body-arrows/white-right.png") center no-repeat $orangeText;
+        border-radius: 0 5px 5px 0;
+       }
+
+    &__policy-block {
+        margin: 22px 0px 0px 0px;
+    }
+
+    & &__label-block {
+        display: flex;
+        align-items: center;
+    }
+
+    & &__policy-text {
+        line-height: 22px;  
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__copy-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0px 0px 0px;
+
+        white-space: pre-line;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__descriptions {}
+
+    &__link-site {}
+
+}
+
+//<>====================================================================================================================================
